@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+
+/*
+paleta de cores
+verde: #49a09d
+lilas: #5f2c82
+*/
+
+:root{
+    --var--color1:#49a09d;
+    --var--color2:#5f2c82;
+}
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+html{
+    font-family: 'Courier New', Courier, monospace;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+
+body{
+    background-color:var(--var--color2);
+    
+}
+
+main{
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    width: 40vw;
+    height: 60vh;
+    margin-top: 30vh;
+    border-radius: 10px;
+}
+
+
+
+main > section > div#imagem{
+    background-color: black;
+    background-position:  bottom center;
+    background-size: cover;
+    background-image: url(../imagens/metal.jpg);
+    height: 250px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+ main > section{
+background-color: rgb(255, 255, 255);
+padding-top: 15px;
+
+}
+main > section > div{
+    text-align: left;
+    color: rgb(0, 0, 0);
+}
